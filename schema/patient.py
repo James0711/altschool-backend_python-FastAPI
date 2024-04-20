@@ -32,7 +32,7 @@ class PatientsEdit(BaseModel):
 
 patients: dict[int, Patients] = {
     0: Patients(
-        id=0, name='Oche Daniel', age=29, sex= 'male', weight=108.9, height=67.5, phone= '08036871246'
+        id=0, name='Oche Barry', age=29, sex= 'male', weight=108.9, height=67.5, phone= '08036871246'
 	),
     1: Patients(
         id=1, name='Ehoche John', age=30, sex= 'male', weight=99.0, height=68.0, phone= '08120752396'
