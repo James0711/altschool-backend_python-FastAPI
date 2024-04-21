@@ -5,8 +5,8 @@ This API aims to simplify appointment booking between a patient and doctors, as 
 
 
 - [Key features](#key-features)
-    + [Patient Registration](#patient-registration)
-    + [Doctor Registration](#Doctor-Registration)
+    + [CRUD Operation for patients](#CRUD-Operation-for-patients)
+    + [CRUD Operation for doctors](#CRUD-Operation-for-doctors)
     + [Appointment Scheduling](#appointment-scheduling)
    
 - [Technologies Used](#technologies-used)
