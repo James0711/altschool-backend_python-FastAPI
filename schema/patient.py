@@ -1,6 +1,7 @@
 from typing import Optional
 from pydantic import BaseModel
 
+
 # patient pydantic definition
 class Patients(BaseModel):
     id: int
@@ -11,6 +12,7 @@ class Patients(BaseModel):
     height: float
     phone: str
 
+
 # pydantic definition Creating patient data
 class PatientsCreate(BaseModel):
     name: str
@@ -19,6 +21,7 @@ class PatientsCreate(BaseModel):
     weight: float
     height: float
     phone: str
+
 
 # pydantic definition for updating patient data
 class PatientsEdit(BaseModel):
@@ -41,5 +44,3 @@ patients: dict[int, Patients] = {
         id=2, name='Jimoh Abigail', age=25, sex= 'female', weight=90, height=65, phone= '08102904865'
 	)
 }
-
-
