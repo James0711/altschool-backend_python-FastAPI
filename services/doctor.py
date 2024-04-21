@@ -1,4 +1,3 @@
-
 from fastapi import HTTPException
 from schema.doctor import DoctorsEdit, doctors, Doctors, DoctorsCreate
 
