@@ -2,6 +2,7 @@ from enum import Enum
 from typing import Optional
 from pydantic import BaseModel
 
+
 # Doctor Pydantic definition
 class Doctors(BaseModel):
      id: int
@@ -24,8 +25,6 @@ class DoctorsEdit(BaseModel):
      specialization: Optional[str] = None
      phone: Optional[str] = None
      
-
-
 
 doctors: dict[int, Doctors] = {
      0: Doctors(id=0, name='Dr. James Eche', specialization='Optician', phone='07056489321', is_available=False),
