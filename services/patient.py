@@ -1,6 +1,7 @@
 from fastapi import HTTPException
 from schema.patient import patients, Patients, PatientsCreate, PatientsEdit
 
+
 class PatientService:
      
      @staticmethod
