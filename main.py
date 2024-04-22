@@ -7,11 +7,13 @@ from routers.appointment import appointment_router
 
 app = FastAPI()
 
-app.include_router(router=patient_router, prefix='/patients', tags=['patients'])
+app.include_router(router=patient_router,
+                   prefix='/patients', tags=['patients'])
 app.include_router(router=doctor_router, prefix='/doctors', tags=['doctors'])
-app.include_router(router=appointment_router, prefix='/appointments', tags=['appointments'])
+app.include_router(router=appointment_router,
+                   prefix='/appointments', tags=['appointments'])
 
 
 @app.get('/home')
 def index():
-    return "Welcome to our Medical Appointment API, book your medical appointments today"
+    return "Welcome to our Medical Appointment API, book your appointment today"
