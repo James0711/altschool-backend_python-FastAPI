@@ -12,3 +12,13 @@ This API aims to simplify appointment booking between a patient and doctors, as 
 - [Technologies Used](#technologies-used)
     + [Backend: FastAPI](#backend:-fastapi)
     + [Database: in-memory data structure(lists & dictionaries)](#database:in-memory-data-structure-(lists-&-dictionaries))
+
+# Installation
+
+1. Clone the repository:
+
+git clone https://github.com/James0711/altschool-backend_python-FastAPI.git
+
+2. Install the required dependencies: pip install -r requirements.txt
+
+3. Run the FastAPI application: uvicorn main:app --reload
